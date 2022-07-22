@@ -1,0 +1,20 @@
+{
+    "name": "vgr-system/vgr",
+    "description": "video game content rating system",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mojtaba shafizadeh",
+            "email": "mojtaba031@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VgrSystem\\": "src/"
+        }
+    }
+}
